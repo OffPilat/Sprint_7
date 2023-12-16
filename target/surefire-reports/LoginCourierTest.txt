@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: LoginCourierTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.004 s <<< FAILURE! - in LoginCourierTest
+loginCourierWithWrongPassword(LoginCourierTest)  Time elapsed: 0.099 s  <<< FAILURE!
+java.lang.AssertionError: Неверный статус код expected:<400> but was:<404>
+	at LoginCourierTest.loginCourierWithWrongPassword(LoginCourierTest.java:51)
+

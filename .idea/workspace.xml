@@ -4,23 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca2eb8eb-d609-4f1c-b8f5-8d1ca99039a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Locators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/courier/CourierClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/courier/CourierCreds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/courier/CourierGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/courier/Steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Courier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/order/OrderClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/order/OrderGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/order/Steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CreationCourierTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CreationOrderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ListOrdersTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoginCourierTest.java" afterDir="false" />
+    <list default="true" id="ca2eb8eb-d609-4f1c-b8f5-8d1ca99039a0" name="Changes" comment="add API testcases for creationCourier, loginCourier, creationOrderList">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +39,11 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/offpi/IdeaProjects/Sprint_6_Unit&quot;
   }
 }</component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean test" />
+    </option>
+  </component>
   <component name="RunManager" selected="JUnit.LoginCourierTest">
     <configuration name="CreationCourierTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sprint_7" />
@@ -120,6 +110,14 @@
       <option name="presentableId" value="Default" />
       <updated>1702020203028</updated>
     </task>
+    <task id="LOCAL-00001" summary="add API testcases for creationCourier, loginCourier, creationOrderList">
+      <created>1702726357961</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702726357961</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,5 +130,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add API testcases for creationCourier, loginCourier, creationOrderList" />
+    <option name="LAST_COMMIT_MESSAGE" value="add API testcases for creationCourier, loginCourier, creationOrderList" />
   </component>
 </project>
